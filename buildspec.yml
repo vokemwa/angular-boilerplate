@@ -16,5 +16,5 @@ phases:
       - npm run build -- --configuration=production
 artifacts:
   files:
-    - '**/*'
-  base-directory: 'dist/angular-boilerplate/browser' # Verify your exact folder name inside /dist after your first local build
+    - '**/*'   
+  base-directory: 'dist/angular-unicom-pipeline/browser' after your first local build
