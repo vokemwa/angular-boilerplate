@@ -9,7 +9,7 @@ phases:
       - npm install
   pre_build:
     commands:
-      - echo "Running any tests if necessary..."
+      - echo "Running tests..."
   build:
     commands:
       - echo "Building the Angular application..."
@@ -17,4 +17,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: 'dist/angular-unicom-pipeline/browser'
+  base-directory: 'dist/angular-boilerplate/browser'
